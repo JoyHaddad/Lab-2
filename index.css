@@ -92,6 +92,7 @@ nav ul .button-style button {
   margin-left: 10px;
   border-width: 2px;
   /* margin-bottom: 20px; */
+  transform: translateY(-20%)
 }
 .cover{
   background-color: black;
@@ -110,11 +111,11 @@ nav ul .button-style button {
   font-weight: bold;
   color: rgba(33, 32, 32, 0.55);
   margin-bottom: 10px;
-  transform: translateY(-100%)
+  transform: translateY(-150%)
   
 }
 .followers{
-  transform: translateY(-100%)
+  transform: translateY(-150%)
 }
 .followers span{
   padding-left: 10px;
