@@ -101,6 +101,7 @@ nav ul .button-style button {
 .stats {
   display: flex;
   background-color: white;
+  
 }
 
 .stats span {
@@ -109,13 +110,19 @@ nav ul .button-style button {
   font-weight: bold;
   color: rgba(33, 32, 32, 0.55);
   margin-bottom: 10px;
+  transform: translateY(-100%)
   
+}
+.followers{
+  transform: translateY(-100%)
 }
 .followers span{
   padding-left: 10px;
   margin-right: 45px;
   color: deepskyblue;
   font-weight: bold;
+ 
+  
 }
 .username{
   padding-left: 15px;
