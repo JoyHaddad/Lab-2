@@ -74,10 +74,12 @@ nav ul .button-style button {
 }
 
 .profile {
-  position: absolute; 
+  /* position: absolute;  */
   top: 130px;
   left: 130px; 
   z-index: 1;
+  display: flex;
+  
 }
 
 .profile img{
@@ -114,4 +116,23 @@ nav ul .button-style button {
   margin-right: 45px;
   color: deepskyblue;
   font-weight: bold;
+}
+.username{
+  padding-left: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.account{
+  color: gray;
+  padding-left: 5px;
+
+  
+}
+
+.user{
+ padding-left: 80px;
+ transform: translateY(-200%);
+ 
 }
